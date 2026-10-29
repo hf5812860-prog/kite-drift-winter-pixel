@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #14120e;
+  --color-surface: #1e1b16;
+  --color-raised: #2a251e;
+  --color-fg: #f3efe4;
+  --color-muted: #b7ad9e;
+  --color-line: #3a342b;
+  --color-brass: #e2a23a;
+  --color-brass-ink: #1a1408;
+  --font-sans: "IBM Plex Sans Arabic", "DejaVu Sans", "Segoe UI", sans-serif;
+  --font-display: "Reem Kufi", "IBM Plex Sans Arabic", "DejaVu Sans", sans-serif;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled),
+  summary {
+    cursor: pointer;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brass);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes wasl-ping {
+  0% {
+    transform: scale(0.72);
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+}
+
+.wasl-ring {
+  animation: wasl-ping 2.6s ease-out infinite;
+}
+
+.wasl-ring-late {
+  animation-delay: 0.8s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wasl-ring {
+    animation: none;
+    opacity: 0.28;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "وصل — صوت بين روبلوكس والمتصفح",
+      "hasCanvas": false,
+      "bodyTextLen": 853,
+      "bodyTextHash": "cb0e03ebd35ad4a69b9c6966700e14a7de4d5ca097134d75197c9f2b5cb79e6e",
+      "bodyTextPrefix": "وَصْل غرفة صوت بين روبلوكس والمتصفح الكود الصق الكود اللي طلع لك",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "وصل — صوت بين روبلوكس والمتصفح",
+      "hasCanvas": false,
+      "bodyTextLen": 853,
+      "bodyTextHash": "cb0e03ebd35ad4a69b9c6966700e14a7de4d5ca097134d75197c9f2b5cb79e6e",
+      "bodyTextPrefix": "وَصْل غرفة صوت بين روبلوكس والمتصفح الكود الصق الكود اللي طلع لك",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (775 -> 853 chars, hash mismatch)"
+  ]
+}

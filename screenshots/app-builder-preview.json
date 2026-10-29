@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "وصل — صوت بين روبلوكس والمتصفح",
+      "hasCanvas": false,
+      "bodyTextLen": 893,
+      "bodyTextHash": "7644fb31e608be94fc7f4267c6085065845b5baaa5e808dcdf4e63f0d28b866e",
+      "bodyTextPrefix": "وَصْل المايك من هنا، والكلام من داخل روبلوكس ربط اللاعب الصق كود",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "وصل — صوت بين روبلوكس والمتصفح",
+      "hasCanvas": false,
+      "bodyTextLen": 893,
+      "bodyTextHash": "7644fb31e608be94fc7f4267c6085065845b5baaa5e808dcdf4e63f0d28b866e",
+      "bodyTextPrefix": "وَصْل المايك من هنا، والكلام من داخل روبلوكس ربط اللاعب الصق كود",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
